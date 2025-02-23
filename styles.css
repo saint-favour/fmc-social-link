@@ -1,0 +1,84 @@
+body{
+    width: 100%;
+    overflow-x: hidden;
+    padding: 2rem;
+    background: #141414;
+    font-family: myfont;
+}
+@font-face {
+    font-family: myfont;
+    src: url(Inter-VariableFont_slnt\,wght.ttf);
+}
+
+.card{
+    margin: auto;
+    border: 1px solid;
+    width: 400px;
+    height: 650px;
+    border-radius: 10px;
+    background: #1f1f1f;
+   
+}
+
+img{
+    width: 100px;
+    border-radius: 50%;
+    margin: 25px 0px 0%  140px;
+
+    
+}
+
+
+h1{
+    text-align: center;
+    text-transform: capitalize;
+    padding: 0px;
+    color: white;
+}
+
+h3{
+    color:#c5e463;
+    text-align: center;
+    line-height: 0px;
+
+}
+
+p{
+     text-align: center;
+     line-height: 90px;
+     color: white;
+    
+}
+
+
+.options{
+ /* border: 1px solid red; */
+ width: 400px;
+ height: 300px;
+ margin: auto;
+ margin-top: -25px;
+ display: flex;
+ flex-direction: column;
+ align-content: space-between;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-family: myfont;
+    font-weight: bold;
+}
+
+button{
+    margin: auto;
+    width: 27em;
+    height: 10em;
+    border-radius: 7px;
+    background-color: #333333;
+    border: none;
+    
+}
+
+button:hover{
+    background-color: #c5e463;
+}
